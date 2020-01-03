@@ -1,0 +1,14 @@
+
+
+
+.main-height {
+  min-height: 100vh!important;
+}
+
+.little-font {
+  font-size: 0.8rem;
+}
+
+.radius {
+  border-radius: 15px;
+}
