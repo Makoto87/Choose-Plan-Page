@@ -9,6 +9,62 @@
   font-size: 0.8rem;
 }
 
+.little-bold {
+  font-weight: 600;
+}
+
+.underLine {
+  background:linear-gradient(transparent 70%, #FFFF00 0%);
+}
+
+.fit-size {
+  height: 20vh;
+}
+
 .radius {
   border-radius: 15px;
+}
+
+.keyColor {
+  color: #5FC8C1;
+}
+
+.roadColor {
+  color: #EC7FA9;
+}
+
+.codeColor {
+  color: #BEB2E5;
+}
+
+.commentColor {
+  color: #E0DA3B;
+}
+
+
+/* レスポンシブルデザイン用*/
+@media (max-width: 543px) {
+  .h4 {
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 544px) {
+  textLine {
+    display: inline-block;
+  }
+}
+
+
+@media (min-width: 768px) {
+  /* .textLine {
+    display: inline-block;
+  } */
+}
+@media (min-width: 992px) {
+          
+}
+
+@media (min-width: 1200px) {
+
 }
