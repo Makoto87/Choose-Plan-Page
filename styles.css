@@ -43,24 +43,15 @@
 
 
 /* レスポンシブルデザイン用*/
-@media (max-width: 543px) {
+@media (max-width: 575px) {
   .h4 {
-    line-height: 2rem;
-  }
-}
-
-@media (min-width: 544px) {
-  textLine {
-    display: inline-block;
+    line-height: 1.6rem;
+    font-size: 1.3rem;
   }
 }
 
 
-@media (min-width: 768px) {
-  /* .textLine {
-    display: inline-block;
-  } */
-}
+
 @media (min-width: 992px) {
           
 }

@@ -15,12 +15,15 @@
 
   <div class="container row mw-100 m-0 p-0 main-height">
   
-    <!-- 左側 -->
-    <div class="container bg-white col-12 col-lg-6 p-0">
-      <img class="fit-size" src="img/background-top.png" alt="">
-      
+    <!-- 左側（下側） -->
+    <div class="container bg-white col-12 col-lg-6 order-2 order-lg-1 text-center text-sm-left p-0">
+      <div class="d-flex">
+        <img class="fit-size text-left col-5 p-0" src="img/background-top.png" alt="">
+        <div class="col-7 p-0"></div>
+      </div>
+
       <div class="h4 little-bold justify-content-start mx-0 py-2 px-5">
-        <span class="textLine">Recursionの<span class="underLine">プレミアム会員</span>になって、</span><span class="textLine">コンピューターサイエンスをマスターしよう！</span>
+        Recursionの<span class="underLine">プレミアム会員</span>になって、<br class="d-none d-sm-block">コンピューターサイエンスをマスターしよう！</br>
       </div>
 
       <!-- 4つの説明 -->
@@ -56,7 +59,7 @@
 
       <!-- 下の部分 -->
       <div class="d-flex p-0">
-        <div class="col-8 d-flex align-items-center mx-0 p-5">
+        <div class="col-8 d-flex align-items-center mx-0 p-3 p-sm-5">
           <i class="text-primary fas fa-chevron-left mr-1"></i>
           <div class="text-primary">前のページに戻る</div>
         </div>
@@ -68,14 +71,14 @@
       
     </div>
 
-    <!-- 右側 -->
-    <div class="d-flex flex-column justify-content-center align-items-center bg-light col-12 col-lg-6 p-0">
+    <!-- 右側（上側） -->
+    <div class="d-flex flex-column justify-content-center align-items-center bg-light col-12 col-lg-6 order-1 order-lg-1 py-5 px-1 p-lg-0">
 
       <div class="text-center font-weight-bold m-3">プランを選択する</div>
       <div class="text-center text-muted little-font w-75 m-2">プレミアム会員の解約はいつでも行うことができます。</div>
 
       <!-- 各プラン -->
-      <div class="d-flex flex-column my-2 w-75">
+      <div class="d-flex flex-column my-2 w-75 p-sm-3 px-md-5">
 
         <!-- 個人プラン -->
         <div class="container d-flex text-primary border border-primary radius w-100 my-2 p-3">
